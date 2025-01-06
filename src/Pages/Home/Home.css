@@ -1,0 +1,28 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.events {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 3rem;
+}
+
+.event-image {
+  height: 200px;
+}
+
+.event-name {
+    font-family: var(--ff-title);
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+  @media (max-width: 800px) {
+    .events {
+      gap: 1rem
+    }
+  } 

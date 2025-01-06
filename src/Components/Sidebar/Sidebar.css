@@ -1,0 +1,113 @@
+.category-filter {
+    display: block;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.category-filter button {
+    margin: 0 0.3rem 0.3rem 0;
+}
+
+/* .category-filter button:hover,
+.references button:hover,
+.dropdown:hover
+{
+    filter: brightness(1.5);
+} */
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0;
+}
+
+.dropdown-label {
+    font-size: var(--fs-base);
+    font-family: var(--ff-title);
+    margin: 0;
+    text-align: left;
+}
+
+.select {
+max-width: 7rem;
+height: 1.7rem;
+border-radius: 20px;
+text-align: left;
+}
+
+.MuiOutlinedInput-root {
+    font-size: var(--fs-smaller) !important;
+    color: var(--color-grey-dark) !important;
+}
+
+.MuiMenuItem-root {
+    font-size: var(--fs-smaller) !important;
+    color: var(--color-grey-dark) !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+border:var(--color-brown) 1px solid !important;
+}
+
+.references {
+    font-size: var(--fs-big);
+    text-align: left;
+    margin: 2rem 0;
+    background-color: var(--color-blue-light);
+    padding: 0 0.5rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+} 
+
+.references p {
+    font-family: var(--ff-title);
+}
+
+.references button {
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 800px) {
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .category-filter {
+    margin-bottom: 0.5rem;
+    order: 2;
+    display: flex;               
+    flex-direction: row;        
+    gap: 0.5rem;              
+    flex-wrap: wrap;        
+    justify-content: flex-start; 
+    align-items: center;
+    }
+
+    .references {
+        margin: 1rem 0;
+        order: 1;
+    } 
+
+    .references button {
+        margin-bottom: 1rem;
+    }
+
+    .dropdown {
+        order: 3;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .dropdown-label {
+        margin-right: 0.5rem;
+    }
+}
+
+
+
+
+
