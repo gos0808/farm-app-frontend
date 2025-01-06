@@ -27,7 +27,7 @@ export const Header = () => {
             <nav>
                 <img className="farm-icon" src={farmIcon} alt="Farm Icon" />
                 <div className='link-container'>
-                    <NavLink to="/" className='link'>Our farm</NavLink>
+                    <NavLink to="/" className='link'>Farm</NavLink>
                     <NavLink to="/products" className='link'>Products</NavLink>
                     <NavLink to="/about" className='link'>About</NavLink>
                     <NavLink to="/contact" className='link'>Contact</NavLink>
