@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.464e339b.css",
+    "main.js": "/static/js/main.0c4bb87e.js",
+    "static/js/453.84cb1735.chunk.js": "/static/js/453.84cb1735.chunk.js",
+    "static/media/farm-icon.jpg": "/static/media/farm-icon.ca44cb6354ef61115216.jpg",
+    "index.html": "/index.html",
+    "main.464e339b.css.map": "/static/css/main.464e339b.css.map",
+    "main.0c4bb87e.js.map": "/static/js/main.0c4bb87e.js.map",
+    "453.84cb1735.chunk.js.map": "/static/js/453.84cb1735.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.464e339b.css",
+    "static/js/main.0c4bb87e.js"
+  ]
+}

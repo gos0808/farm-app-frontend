@@ -1,0 +1,7 @@
+{
+    "name": "My PWA App",
+    "short_name": "PWA App",
+    "description": "A progressive web application",
+    "start_url": "/index.html",
+    "display": "standalone"
+  }
