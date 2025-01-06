@@ -64,9 +64,9 @@ Authorisation was made using auth0
 Olga: gos08.08.23@gmail.com
 
 Project link: \
-https://github.com/gos0808/farm-app \
+https://github.com/gos0808/farm-app-frontend \
 https://github.com/gos0808/farm-app-backend \
-https://blue-sky-fam.netlify.app/
+https://farm-app-fullstack.netlify.app/
 
 # Getting Started with Create React App
 
